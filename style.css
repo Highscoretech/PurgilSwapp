@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+/* For mobile */
+@media only screen and ( max-width : 480px) {
+    body{
+        background-image: url("./images/man\ standing.jpg");
+        color: navy;
+        height: 600px;
+        background-repeat: no-repeat;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    /*  Pre-loading */
+    /* Animation property
+button {
+    animation: wiggle 2s linear infinite;
+  }
+  
+  /* Keyframes */
+  /* @keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+  
+  body {
+    background: #000;
+  }
+  
+  button {
+    position: absolute;
+    left: calc(50% - 3em);
+    top: calc(50% - 2em);
+    
+    height: 4em;
+    width: 7em;
+    
+    background: #444;
+    background: linear-gradient(top, #555, #333);
+    border: none;
+    border-top: 3px solid orange;
+    border-radius: 0 0 0.2em 0.2em;
+    color: #fff;
+    font-family: Helvetica, Arial, Sans-serif;
+    font-size: 1em;
+    transform-origin: 50% 5em;
+  }  */
+    .head{
+        width: 100%;
+
+    }
+    header{
+        background: rgb(235, 232, 232);
+        width: 100%;
+        height: 44px;
+    }
+    .logo{
+        padding: 8px;
+        margin: 0px 4px auto;
+        width: 40%;
+        float: left;
+    }
+    .header{
+        width: 14%;
+        float: right;
+        padding: 8px;
+    }
+    .header div{
+        height: 4px;
+        width: 30px;
+        background: navy;
+        margin: 4px;
+
+    }
+    
+    .content{
+        width: 100%;
+        height: 600px;
+        background-image: url("./images/man\ standing.jpg");
+        position: relative;
+        animation-name: example;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes example {
+        0%   {background-image: url("./images/man\ standing.jpg"); left:0px; top:0px;}
+        25%  {background-image: url("./images/man\ standing.jpg");  left: 0px; top:0px; }
+      }
+      .container{
+        color: white;
+        padding-top: 120px;
+        margin: 0px;
+        font-weight: bold;
+        width: 74%;
+        /* min-width: 69%; */
+        float: left;
+        
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+    .con{
+        background-color: rgba(22, 49, 121, 0.842);
+        padding: 10px;
+        margin: 0px;
+        border-radius: 10px;
+        letter-spacing: 1px;
+        min-width: 260px;
+        /* height: 160px; */
+
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+  
+
+    /* >>>>>>>>>>>>  Form <<<<<<<<<<<*/
+    form{
+        padding: 0;
+        margin: 0;
+        font-family: 'Times New Roman', Times, serif;
+        background-image: url("./images/panel.jpg");
+        height: 660px;
+        background-size: cover;
+        position: absolute;
+        
+    }
+    .login{
+       background-color: aliceblue;
+       color: navy;
+       padding: 30px;
+       margin: 70px 40px 40px 40px;
+       text-align: center;
+       border-radius: 10px;
+       box-shadow: rgb(0, 7, 0) 0px 20px 30px -10px;
+
+    }
+    .login-form{
+        padding: 20px;
+        margin: 2px;
+    }
+    .login-form a{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    input{
+        width: 100%;
+        padding: 8px;
+        outline: none;
+        margin: 10px auto;
+        border: 1px solid navy;
+        border-radius: 5px;
+        color: navy;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    button{
+        width: 90%;
+        padding: 8px;
+        margin: 10px auto;
+        background: navy;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-radius: 5px;
+        border: none;
+    }
+    button:hover{
+        background: rgb(48, 48, 173);
+    }
+    #offcanvasExample{
+        background: rgb(233, 229, 229);
+    }
+    #offcanvasExample button{
+        background: none;
+        border: 1px solid rgb(233, 229, 229);
+    }
+    #offcanvasExample button:hover{
+        background: rgb(233, 229, 229);;
+        color: navy;
+    }
+    .offcanvas-body{
+        background: navy;
+        text-align: center;
+    }
+    #offcanvasExample #btn{
+        background: rgb(233, 229, 229);
+        position: absolute;
+        bottom: 0;
+        width: 40%;
+        color: navy;
+    }
+
+    /* features */
+    #features{
+        display: block;
+        position: relative;
+        font-family: cursive;
+
+    }
+    #fund{
+        padding: 20px;
+        margin: 20px;
+       box-shadow: rgb(0, 7, 0) 0px 20px 30px -10px;
+        color: rgb(10, 10, 99);
+    }
+    #fund h3{
+        color: navy;
+        font-weight: bold;
+    }
+    
+    #start-btn{
+        position: relative;
+        margin: 20px;
+        background-color:  rgb(38, 116, 38);
+        color: white;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    marquee{
+        color: rgb(3, 3, 41);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+        font-weight: bold;
+    }
+    .start-content{
+        background: white;
+       box-shadow: rgb(0, 7, 0) 0px 20px 30px -10px;
+
+        padding: 27px;
+        margin: 25px;
+        color:  rgb(38, 116, 38);
+        position: relative;
+        border-radius: 16px;
+    }
+
+
+    #start{
+        background-image: url("./images/start.jpg");
+        height: 580px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    footer{
+        background-color: black;
+
+        color:white;
+    }
+    footer img{
+        padding: 29px;
+
+
+    }
+    .foter-content{
+        padding: 10px;
+    }
+    .foter-content i{
+        margin: 10px;
+    }
+}

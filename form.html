@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>purgilSwap form</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="mobile">
+        <div class="head">
+            <header>
+                <div class="logo">
+                   <a href="index.html"><img src="./images/white backgroung.jpg" alt="" width="150" height="20"></a> 
+                    
+                </div>
+                <div class="header" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </header>
+        </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <img src="./images/white backgroung.jpg" alt="" width="240" height="50">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <hr>
+            <div class="offcanvas-body">
+                <div>
+                    <button>Home</button>
+                    <button>Swap</button>
+                    <button>P2P trading</button>
+                    <button>Invite friend</button>
+                    <button>Earn</button>
+                </div>
+                <a href="form.html"><button id="btn">Login / Signin</button></a>
+            </div>
+            
+
+            </div>
+    <form action="/login" method="post" id="home">
+        <div class="login">
+            <h2>Welcome back</h2>
+            <div class="login-form">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="password" name="email" id="email" placeholder="Password">
+                <button type="submit">Continue</button>
+                <br> <br> <hr>
+                <p>I don't have an account <a href="#" id="create" >Create account</a></p>
+            </div>
+        </div>
+    </form>
+
+    <form action="/create" method="post" id="create-el">
+        <div class="login">
+            <h2>Create account</h2>
+            <div class="login-form">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="tel" name="Phone" id="email" placeholder="Phone">
+                <input type="password" name="email" id="email" placeholder="Password">
+                <button type="submit">Continue</button>
+                <br> <br> <hr>
+                <p>I already have an account <a href="#" id="login">Login</a></p>
+            </div>
+        </div>
+    </form>
+
+
+    <script src="script.js"></script>
+    <script src="./bootstrap/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
