@@ -217,7 +217,7 @@ button {
     #features{
         display: block;
         position: relative;
-        font-family: cursive;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     }
     #fund{
